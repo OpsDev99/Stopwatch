@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,blue,aqua);
+    height: auto;
+    width: auto;
+    color: white;
+    text-align: center;
+  }
+  
+  span{
+    font-size: 50px;
+  }
+  
+  button{
+    margin: 10px;
+    color: red;
+    border-style: ridge;
+    border-color: blue;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 15px;
+  }
+  button:hover{
+    background-color: blue;
+    transition: 0.5s;
+    border-color: aqua;
+  }
